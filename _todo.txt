@@ -1,0 +1,28 @@
+when app-todo app test or config/db/ change => run prepareGApp
+ ajouter la possibilte d'ajouter une app via une command depuis fs github url par 
+ app-auth
+//
+[x] creer todo multu  user backend 
++ 
+[x] frontend +
+[x] deploy it in heroku
+ //
+ app-image1 => save imahe in some directory
+ app-image2 => save image in db
+ //
+ creer le backend de eboutique 
+ actualiser le alephjs-eboutique-ui puis le commpleter
+ deploy on heroku + test
+ update app-auth by adding number phone check 
+ deploy on heroku + test
+ deplacer les images de mysql vers google drive
+
+ 
+====================================================================
+
+ test crud again
+
+ regrouper les command pour creer une app crud complete
+
+ 
+ 

@@ -1,0 +1,32 @@
+syntax
+deno run --allow-all --unstable appCli.ts  copyTest arg1  arg2
+-------------------------------------------
+arg index          meaning         coments
+--------------------------------------------        
+0                   copyTest         read example to understand
+--------------------------------------------
+1                    app name
+---------------------------------------------
+2                  app url
+-----------------------------------------------
+
+example:
+ deno run --allow-all --unstable appCli.ts  copyTest app-posts /posts
+ this command will create copy the content in
+ /cli/gApp/src/app-todo/test/app.test.txt (this exist in each project)
+ to app
+ app-posts/test/app.test.ts 
+ tested endpoint in app.test.ts  will be :
+ -------------------------------------------------------
+ endpoint              method       
+ ------------------------------------------------------
+ /posts                 GET 
+ ------------------------------------------------------
+ /posts                 POST 
+ ------------------------------------------------------
+ /posts/1                GET 
+ ------------------------------------------------------
+ /posts/1                DELETE
+ ------------------------------------------------------
+  /posts                PUT
+  ----------------------------------------------------

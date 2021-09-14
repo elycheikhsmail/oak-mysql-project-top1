@@ -1,0 +1,19 @@
+??? documenter une fonction js de tel sort qu'il soit affiche par vscode ???
+
+tester le fonction de app-auth
+puis
+ajouter protect url + creer un test
+puis tester 
+  ||
+  \/
+
+  todo for multiple user
+   ||
+   \/
+   gui for this in alephjs
+
+
+   expire date doit etre dans auth-config
+
+
+

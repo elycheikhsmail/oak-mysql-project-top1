@@ -1,0 +1,24 @@
+syntaxe
+ deno run --allow-all --unstable appCli.ts  gApp foo /foo
+deno run --allow-all --unstable appCli.ts  gAppEmpty arg1 arg2
+
+deno run --allow-all --unstable appCli.ts  copySql arg1 arg2
+-------------------------------------------
+arg index          meaning         coments
+--------------------------------------------        
+0                   gAppEmpty       read example to understand
+--------------------------------------------
+1                    app name
+---------------------------------------------
+2                    app url
+-----------------------------------------------
+
+
+
+example
+
+deno run --allow-all --unstable appCli.ts  gApp student /s
+this will create app named app-student 
+app-student urls will be prefixed with /s
+app-student have 1 controller named indexCtr
+when running the project will work

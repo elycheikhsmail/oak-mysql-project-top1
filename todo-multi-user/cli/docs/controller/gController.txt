@@ -1,0 +1,29 @@
+syntax
+ deno run --allow-all --unstable appCli.ts  gController foo index  get  /
+ -------------------------------------------
+arg index          meaning         coments
+--------------------------------------------        
+0                  gController       read example to understand
+--------------------------------------------
+1                    app name
+---------------------------------------------
+2                    controller name
+-----------------------------------------------
+3                     method supported for the controller
+                     get|post|put|delete  
+-----------------------------------------------------
+4                   controller route url
+-----------------------------------------------------
+
+example 
+ deno run --allow-all --unstable appCli.ts  gController foo index  get  /
+ this will create controller named indexCtr in foo/controller/indexCtr.ts
+ and update foo/routes by adding 
+
+import {  indexCtr} from "./controller/indexCtr.ts";
+routes.get("/", async (ctx: Context) => await indexCtr(ctx));
+in foo/routes.ts
+
+ deno run --allow-all --unstable appCli.ts  gController todo index  get  /
+
+  deno run --allow-all --unstable appCli.ts  gController todo rc  get  /rc

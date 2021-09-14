@@ -1,0 +1,8 @@
+deno run --allow-all ./cli/crudTodo/cli.ts initdb
+deno run --allow-all ./cli/crudTodo/cli.ts add task1
+deno run --allow-all ./cli/crudTodo/cli.ts add task2
+deno run --allow-all ./cli/crudTodo/cli.ts add task3
+deno run --allow-all ./cli/crudTodo/cli.ts tasks
+deno run --allow-all ./cli/crudTodo/cli.ts update 1 sidi
+deno run --allow-all ./cli/crudTodo/cli.ts delete 2
+deno run --allow-all ./cli/crudTodo/cli.ts tasks

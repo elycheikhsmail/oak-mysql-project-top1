@@ -1,0 +1,7 @@
+-- SQLite 
+CREATE TABLE IF NOT EXISTS app_auth_user(
+	id	INTEGER,
+	username TEXT UNIQUE NOT NULL, 
+	password   TEXT,
+	PRIMARY KEY( id AUTOINCREMENT)
+);

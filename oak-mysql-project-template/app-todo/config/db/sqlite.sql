@@ -1,0 +1,6 @@
+-- SQLite 
+CREATE TABLE IF NOT EXISTS todo_tasks(
+	id	INTEGER,
+	text	TEXT, 
+	PRIMARY KEY( id AUTOINCREMENT)
+);

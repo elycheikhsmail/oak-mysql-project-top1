@@ -1,0 +1,4 @@
+  deno run --allow-all --unstable cli.ts  gController todo deleteItem  get  /:id
+ deno run --allow-all --unstable cli.ts  gController todo add  post  /
+ deno run --allow-all --unstable cli.ts  gController todo deleteItem  delete  /:id
+ deno run --allow-all --unstable cli.ts  gController todo update  put  /:id

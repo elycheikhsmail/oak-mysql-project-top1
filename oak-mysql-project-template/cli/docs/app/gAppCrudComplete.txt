@@ -1,0 +1,17 @@
+ deno run --allow-all --unstable appCli.ts  gAppCrudComplete todo task  task /todo
+
+
+-------------------------------------------
+arg index          meaning         coments
+--------------------------------------------        
+0                   gAppCrudComplete     read example to understand
+--------------------------------------------
+1                    app name
+---------------------------------------------
+2                    controler Prefix    
+-----------------------------------------------
+3                    tableName 
+--------------------------------------------------------------
+4                         appUrlPrefix
+--------------------------------------------------- 
+this will create compete crud app with 5 endpoints with table {tableName} and test

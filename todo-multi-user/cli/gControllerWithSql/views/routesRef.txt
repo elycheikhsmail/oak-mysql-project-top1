@@ -1,0 +1,9 @@
+import { Context, Router } from "./deps-managed.ts";
+const routes = new Router();
+
+// import controller there 
+import { indexController } from "./controller/indexController.ts";
+routes.get("/", async (ctx: Context) => await indexController(ctx));
+ 
+
+export { routes };

@@ -1,0 +1,19 @@
+ est it possible d'himiter le mode offline du navagiteur dev tools en deno environement ?
+  
+ conventions
+ - les nom des apps commence par app-
+ - le fichier sql don't l'execution cree les tables se trouve dans 
+   app-<x>/config/db/sqlie.sql
+   app-<x>/config/db/mysql.sql
+   app-<x>/config/db/pg.sql
+   c'est qui permet de creer une command globale pour creer les tables de tous les apps
+
+-space name tables
+app_<appName>_tableName
+   
+
+
+
+changer deps url1 to url2 ??     
+ 
+check de deno version compare it with deno test with the project emit warnig when needed

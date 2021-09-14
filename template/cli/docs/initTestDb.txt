@@ -1,0 +1,4 @@
+deno run --allow-all --unstable appCli.ts  initTestDb
+
+this command will read existing sql statement in each app 
+(in {appName}/config/db/mysql.test.sql) and execute it

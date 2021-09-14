@@ -1,0 +1,27 @@
+syntax
+deno run --allow-all --unstable appCli.ts  gControllerSql auth protectCtr  /protected getlist
+
+ -------------------------------------------
+arg index          meaning         coments
+--------------------------------------------        
+0                 gControllerSql      read example to understand
+--------------------------------------------
+1                    app name
+---------------------------------------------
+2                    controller name
+----------------------------------------------- 
+3                  controller route url
+-----------------------------------------------------
+4                 actiont ype add|getlist|getbyid|update
+-------------------------------------------
+
+
+example 
+deno run --allow-all --unstable appCli.ts  gControllerSql auth protectCtr  /protected getlist
+
+ this will create controller named indexCtr in foo/controller/indexCtr.ts
+ and update foo/routes by adding 
+
+import {  indexCtr} from "./controller/indexCtr.ts";
+routes.get("/", async (ctx: Context) => await indexCtr(ctx));
+in foo/routes.ts

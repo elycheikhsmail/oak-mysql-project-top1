@@ -1,0 +1,25 @@
+syntaxe
+deno run --allow-all --unstable appCli.ts  copySql arg1 arg2
+-------------------------------------------
+arg index          meaning         coments
+--------------------------------------------        
+0                   copySql       read example to understand
+--------------------------------------------
+1                    app name
+---------------------------------------------
+2                     table name
+-----------------------------------------------
+
+example
+
+deno run --allow-all --unstable appCli.ts  copySql app-articles articles
+this command will copy
+./cli/gApp/src/app-todo/config/db/mysql.sql
+to
+app-articles/config/db/mysql.test.sql
+and 
+./cli/gApp/src/app-todo/config/db/mysql.test.sql
+to
+app-articles/config/db/mysql.test.sql
+and will change default table name from todo_tasks to articles
+

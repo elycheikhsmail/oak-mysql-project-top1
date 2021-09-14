@@ -1,0 +1,3 @@
+deno run --allow-all --unstable appCli.ts  gexample
+this command will remove app-example and remove server/add-routes.ts
+and create fresh one + (re)create app named app-example

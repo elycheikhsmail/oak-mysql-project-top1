@@ -1,0 +1,28 @@
+this for the project dev 
+app-todo is generic app it mean I will extract template from him and 
+I will extact test and sql command for create default table from him
+syntax 
+deno run --allow-all --unstable appCli.ts  preparegApp
+this command will 
+copy 
+/cli/gApp/src/appModel
+to 
+/cli/gApp/src/app-todo
++
+copy
+/app-todo/config/db/mysql.sql
+to
+/cli/gApp/src/app-todo/config/db/mysql.sql
+
++
+copy
+/app-todo/config/db/mysql.test.sql
+to
+/cli/gApp/src/app-todo/config/db/mysql.test.sql
++
+copy
+/app-todo/test/app.test.ts
+to
+/cli/gApp/src/app-todotest/app.test.txt
+
+

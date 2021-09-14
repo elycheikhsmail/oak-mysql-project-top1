@@ -1,0 +1,41 @@
+generate simple crud(without auth sys) for simple table (not  related on any other table) by app
+ok - recevoir le nom table dans le cli
+creer db/mysql/ content => create named <name> and have 2 cols id and text
+ok - create app named <app>
+ok - create 5 endpoits+ 5 controller 
+? + test
+the developper update /db/mysql content then controller code with his table structure
+managing table names conflict is dev responsability
+=> gAppCRUD
+
+
+
+[x] generate rest-api-crud based oak-sqlite
+  ||
+  \/
+
+app-auth  
+  ancien ready backend as referance
+  test
+  ?? generer les fichier de test based on data schema version mysql
+  ?? generer une crud pret a l'emploi une fois la base et les tables sont creer version mysql
+  xampp dev deps
+  ?? utiliser phphmyadmin interface pour decrire les tables de sqlite pour generer complete crud pret a l'emploi
+
+
+
+  data validation ? "ma"nuellement" maintentant  et a etudier dans les future version
+  test
+  actualise gController template avec les dernieres actualisation des todo-app
+  archive sql pour le test
+  test
+  access protected url test
+   ||
+   \/
+generate complete sql-crud controller
+   ||
+   \/
+ready_backend
+
+
+ 
